@@ -18,7 +18,7 @@ const CallToActions = () => {
             <p className="text-lg text-white m0">
               For furthur info &amp; support,{" "}
               <Link href="/contact" className="text-decoration-underline">
-                Contact us.
+                Contact Us.
               </Link>
             </p>
           </div>

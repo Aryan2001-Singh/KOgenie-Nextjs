@@ -92,7 +92,7 @@ const PricingV2 = () => {
               <h6 className="mb-5">Need Custome Plan?</h6>
               <h3 className="fw-normal mb-30">Send us message for Help.</h3>
               <Link href="/contact/contact-v1" className="btn-six fw-500">
-                Contact us
+                Contact Us
               </Link>
             </div>
           </div>{" "}
@@ -130,7 +130,7 @@ const PricingV2 = () => {
                 href="/contact/contact-v1"
                 className="tran3s fs-17 fw-500 btn-three"
               >
-                Contact us
+                Contact Us
               </Link>
             </div>
             {/* End .col */}

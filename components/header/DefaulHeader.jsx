@@ -52,7 +52,7 @@ const DefaulHeader = () => {
               href="/contact/contact-v1"
               className="btn-twentyOne fw-500 tran3s d-none d-lg-block"
             >
-              Contact us
+              Contact Us
             </Link>
           </div>{" "}
           {/* /.right-widget */}

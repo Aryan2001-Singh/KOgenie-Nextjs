@@ -79,7 +79,7 @@ const Services2 = () => {
           </div>
           <h4 className="fw-normal">Send message for info.</h4>
           <Link href="/contact" className="btn-eleven fs-15 fw-500 tran3s">
-            Contact us
+            Contact Us
           </Link>
         </div>
       </div>

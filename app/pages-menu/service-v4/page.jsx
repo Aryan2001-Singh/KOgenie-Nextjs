@@ -15,9 +15,9 @@ const ServiceV4 = () => {
     <>
       {/* Header */}
       <Header />
-      
+
       {/* Inner Banner */}
-      <div className="inner-banner-three text-center p-30">
+      {/* <div className="inner-banner-three text-center p-30">
         <div
           className="bg-wrapper text-center"
           style={{ backgroundImage: "url(/images/assets/bg-17.svg)" }}
@@ -31,11 +31,22 @@ const ServiceV4 = () => {
             </p>
           </div>
         </div>
-      </div>
-      
+      </div> */}
+
       {/* Feature Section One */}
       <div className="fancy-feature-one pt-120 lg-pt-90">
         <div className="container">
+          <h2
+            style={{
+              fontSize: "5rem",
+              justifyContent: "center",
+              textAlign: "center",
+              marginBottom:'2rem',
+            }}
+            className="main-title font-recoleta fw-normal tx-dark"
+          >
+            Our Services
+          </h2>
           <div className="row align-items-center">
             <div className="col-lg-6 aos fadeInLeft">
               <div className="title-style-one text-center text-lg-start">
@@ -46,7 +57,9 @@ const ServiceV4 = () => {
             </div>
             <div className="col-lg-5 ms-auto aos fadeInRight">
               <p className="text-lg text-center text-lg-start md-pt-30 m0">
-                At KOgenie, we help businesses grow by providing cutting-edge solutions in product catalog management, digital marketing, and data analytics.
+                At KOgenie, we help businesses grow by providing cutting-edge
+                solutions in product catalog management, digital marketing, and
+                data analytics.
               </p>
             </div>
           </div>
@@ -71,7 +84,8 @@ const ServiceV4 = () => {
                   </h2>
                 </div>
                 <p className="text-lg mt-40 lg-mt-20">
-                  We empower businesses by offering tailored e-commerce and digital marketing solutions to meet their unique needs.
+                  We empower businesses by offering tailored e-commerce and
+                  digital marketing solutions to meet their unique needs.
                 </p>
                 <img
                   src="/images/shape/shape_179.svg"
@@ -147,24 +161,12 @@ const ServiceV4 = () => {
             <div className="col-xl-8 col-lg-10 m-auto text-center">
               <div className="title-style-one" data-aos="fade-up">
                 <h2 className="main-title fw-bold tx-dark m0">
-                  Ready to get started? It’s just a matter of <span>one click</span>.
+                  Ready to get started? It’s just a matter of{" "}
+                  <span>one click</span>.
                 </h2>
               </div>
-              <p
-                className="text-lg tx-dark pt-40 pb-35 lg-pt-30 lg-pb-20"
-                data-aos="fade-up"
-                data-aos-delay="100"
-              >
-                Try KOgenie's services risk-free. No cancellation fees.
-              </p>
-              <a
-                href="#"
-                className="btn-two fs-18 fw-500"
-                data-aos="fade-up"
-                data-aos-delay="200"
-              >
-                Purchase Now
-              </a>
+             
+              
             </div>
           </div>
         </div>

@@ -51,9 +51,7 @@ const Hero = () => {
                 product/service faster.
               </p>
               <div className="d-sm-flex justify-content-center align-items-center">
-                <Link style={{
-                  background:'#DB4A2B',
-                }}
+                <Link
                   href="/sign-up"
                   className="tran3s fs-17 fw-500 btn-three mb-25 ms-2 me-3"
                 >

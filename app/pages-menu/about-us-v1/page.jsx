@@ -40,9 +40,6 @@ const AboutUsV1 = () => {
           <div className="row">
             <div className="col-lg-7" data-aos="fade-right">
               <div className="title-style-five mb-65 md-mb-40">
-                <div className="sc-title-two fst-italic position-relative">
-                  More About KOgenie
-                </div>
                 <h2 className="main-title fw-500 tx-dark">
                   Leading in E-commerce and Digital Solutions.
                 </h2>
@@ -54,7 +51,11 @@ const AboutUsV1 = () => {
               <div className="ps-xxl-5" data-aos="fade-left">
                 <h6 className="mb-30">Our Journey &amp; Vision</h6>
                 <p className="text-lg tx-dark">
-                  KOgenie was founded to simplify e-commerce and digital marketing for businesses. With our platform, we offer seamless integrations, advanced product catalog management, and powerful digital marketing solutions. Our mission is to help businesses thrive in the competitive digital landscape.
+                  KOgenie was founded to simplify e-commerce and digital
+                  marketing for businesses. With our platform, we offer seamless
+                  integrations, advanced product catalog management, and
+                  powerful digital marketing solutions. Our mission is to help
+                  businesses thrive in the competitive digital landscape.
                 </p>
                 <div className="row">
                   <Counter />
@@ -89,13 +90,17 @@ const AboutUsV1 = () => {
                 data-aos="fade-right"
               >
                 <div className="title-style-six">
-                  <div className="sc-title-two text-uppercase">WHY KOgenie?</div>
+                  <div className="sc-title-two text-uppercase">
+                    WHY KOgenie?
+                  </div>
                   <h2 className="main-title fw-500 tx-dark">
                     Comprehensive Digital Solutions.
                   </h2>
                 </div>
                 <p className="fs-20 pt-20 pb-30 lg-pt-10 lg-pb-20">
-                  KOgenie offers a complete suite of services from e-commerce integration to digital marketing strategies designed to boost your online sales and brand visibility.
+                  KOgenie offers a complete suite of services from e-commerce
+                  integration to digital marketing strategies designed to boost
+                  your online sales and brand visibility.
                 </p>
                 <ul className="style-none list-item">
                   {features.map((feature, index) => (
@@ -193,7 +198,8 @@ const AboutUsV1 = () => {
                   </h2>
                 </div>
                 <p className="fs-20 pt-10 pb-30 lg-pb-20">
-                  Want to know more about KOgenie’s solutions? Contact us for more information.
+                  Want to know more about KOgenie’s solutions? Contact us for
+                  more information.
                 </p>
                 <div className="btn-eighteen position-relative d-inline-block tx-dark">
                   <Link href="/page-menu/about-us-v1" className="fw-500 tran3s">

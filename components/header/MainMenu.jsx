@@ -69,7 +69,7 @@ const MainMenu = () => {
               href="/contact/contact-v1"
               className="btn-twentyOne fw-500 tran3s"
             >
-              Contact us
+              Contact Us
             </Link>
           </div>
         </div>

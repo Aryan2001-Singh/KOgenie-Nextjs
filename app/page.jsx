@@ -29,7 +29,10 @@ const SassProduct = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-5 col-md-6">
-              <div className="block-style-two pe-xxl-5 md-mb-50" data-aos="fade-right">
+              <div
+                className="block-style-two pe-xxl-5 md-mb-50"
+                data-aos="fade-right"
+              >
                 <div className="title-style-three">
                   <div className="sc-title text-uppercase">
                     Integrates your tools
@@ -39,16 +42,21 @@ const SassProduct = () => {
                   </h2>
                 </div>
                 <p className="text-lg mt-25 mb-60 lg-mb-40">
-                  Our platform makes it easy to integrate your existing tools for a seamless experience.
+                  Our platform makes it easy to integrate your existing tools
+                  for a seamless experience.
                 </p>
-                <Link style={{
-                  background:'#DB4A2B'
-                }}href="/pages-menu/about-us-v1" className="btn-four fw-500">
+                <Link
+                  href="/pages-menu/about-us-v1"
+                  className="btn-four fw-500"
+                >
                   Learn More
                 </Link>
               </div>
             </div>
-            <div className="col-xl-6 col-lg-7 col-md-6 ms-auto" data-aos="fade-left">
+            <div
+              className="col-xl-6 col-lg-7 col-md-6 ms-auto"
+              data-aos="fade-left"
+            >
               <ScreenHolder />
             </div>
           </div>
@@ -59,14 +67,18 @@ const SassProduct = () => {
       <div className="fancy-feature-four pt-250 lg-pt-120">
         <div className="container">
           <div className="row">
-            <div className="col-xxl-7 col-md-8 m-auto text-center" data-aos="fade-up">
+            <div
+              className="col-xxl-7 col-md-8 m-auto text-center"
+              data-aos="fade-up"
+            >
               <div className="title-style-three">
                 <h2 className="main-title fw-500">
                   Bring all team management & task together
                 </h2>
               </div>
               <p className="text-lg mt-40 mb-100 lg-mt-20 lg-mb-50">
-                We help you bring all your team management and tasks into one simple platform.
+                We help you bring all your team management and tasks into one
+                simple platform.
               </p>
             </div>
           </div>
@@ -79,7 +91,10 @@ const SassProduct = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-5 col-md-6 order-md-last ms-auto">
-              <div className="block-style-two pe-xxl-5 sm-mb-50" data-aos="fade-left">
+              <div
+                className="block-style-two pe-xxl-5 sm-mb-50"
+                data-aos="fade-left"
+              >
                 <div className="title-style-three">
                   <div className="sc-title text-uppercase">
                     Over 150,000+ clients
@@ -91,9 +106,11 @@ const SassProduct = () => {
                 <p className="text-lg mt-40 mb-75 lg-mt-30 lg-mb-50">
                   Our tools are trusted by over 150,000 clients worldwide.
                 </p>
-                <Link style={{
-                  background:'#DB4A2B',
-                }}href="/sign-up" className="btn-four fw-500">
+                <Link
+                  
+                  href="/sign-up"
+                  className="btn-four fw-500"
+                >
                   Try Free Now
                 </Link>
               </div>
@@ -117,9 +134,9 @@ const SassProduct = () => {
                   Let’s Discover our all features
                 </h2>
               </div>
-              <Link href="/pages-menu/service-v1" className="btn-five tran3s fw-500 fs-17 text-decoration-underline">
+              {/* <Link href="/pages-menu/service-v1" className="btn-five tran3s fw-500 fs-17 text-decoration-underline">
                 Click here for more info
-              </Link>
+              </Link> */}
             </div>
             <Features />
           </div>
@@ -133,7 +150,11 @@ const SassProduct = () => {
             <div className="col-xxl-6 col-lg-7 col-md-8 col-sm-10 m-auto">
               <div className="title-style-three text-center mb-70 lg-mb-40">
                 <div className="icon d-flex align-items-center justify-content-center rounded-circle">
-                  <img src="/images/icon/icon_19.svg" alt="icon" className="lazy-img" />
+                  <img
+                    src="/images/icon/icon_19.svg"
+                    alt="icon"
+                    className="lazy-img"
+                  />
                 </div>
                 <h2 className="main-title fw-500">
                   Check what our clients say about us.
@@ -178,7 +199,10 @@ const SassProduct = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-8 m-auto">
-              <div className="title-style-three text-center mb-60 lg-mb-40" data-aos="fade-up">
+              <div
+                className="title-style-three text-center mb-60 lg-mb-40"
+                data-aos="fade-up"
+              >
                 <div className="sc-title text-uppercase">Pricing Plan</div>
                 <h2 className="main-title fw-500">
                   No hidden charges! Choose your plan.
@@ -191,7 +215,10 @@ const SassProduct = () => {
       </div>
 
       {/* Fancy Short Banner Two */}
-      <div className="fancy-short-banner-two mt-150 lg-mt-100" data-data-aos="fade-up">
+      <div
+        className="fancy-short-banner-two mt-150 lg-mt-100"
+        data-data-aos="fade-up"
+      >
         <div className="container">
           <div className="bg-wrapper ms-xxl-4 me-xxl-4 position-relative">
             <div className="inner-wrapper m-auto">
@@ -202,7 +229,7 @@ const SassProduct = () => {
                 </div>
                 <div className="col-md-6 text-center text-md-end">
                   <Link href="/contact" className="btn-six fw-500">
-                    Contact us
+                    Contact Us
                   </Link>
                 </div>
               </div>

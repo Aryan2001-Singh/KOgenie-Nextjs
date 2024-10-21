@@ -326,7 +326,7 @@ p {
   font-size: 25px;
   cursor: pointer;
   border-radius: 50%;
-  background: var(--prime-ten);
+  background: #DB4A2B ;
   transition: all 0.3s ease-in-out;
 }
 .scroll-top:after {
@@ -477,7 +477,7 @@ p {
   font-size: 15px;
   letter-spacing: 2px;
   padding-bottom: 8px;
-  color: var(--prime-ten);
+  color: #DB4A2B;
 }
 .title-style-six .main-title {
   font-size: 62px;
@@ -669,11 +669,12 @@ body .btn-three {
   border-radius: 28px;
   padding: 0 40px;
   position: relative;
-  background: var(--prime-two);
+  background: #DB4A2B; /* Changed background color to #DB4A2B */
   transition: all 0.3s ease-in-out;
 }
+
 body .btn-three:hover {
-  background: #090f32;
+  background: #090f32; /* A darker shade of #DB4A2B for the hover effect */
 }
 body .btn-four {
   color: #fff;
@@ -681,7 +682,7 @@ body .btn-four {
   border-radius: 7px;
   padding: 0 40px;
   position: relative;
-  background: var(--prime-two);
+  background: #DB4A2B;
   transition: all 0.3s ease-in-out;
 }
 body .btn-four:hover {
@@ -700,13 +701,13 @@ body .btn-five:hover {
 body .btn-six {
   line-height: 50px;
   border-radius: 4px;
-  border: 2px solid var(--prime-two);
-  color: var(--prime-two);
+  border: 2px solid #DB4A2B ;
+  color: #DB4A2B;
   padding: 0 40px;
   transition: all 0.3s ease-in-out;
 }
 body .btn-six:hover {
-  background: var(--prime-two);
+  background: #DB4A2B;
   color: #fff;
 }
 body .btn-seven {
@@ -960,7 +961,7 @@ body .btn-twentyOne {
   line-height: 50px;
   padding: 0 35px;
   border-radius: 30px;
-  background: var(--prime-ten);
+  background: #DB4A2B ;
   color: #fff;
   letter-spacing: -0.36px;
 }
@@ -971,7 +972,7 @@ body .btn-twentyTwo {
   line-height: 55px;
   padding: 0 42px;
   border-radius: 7px;
-  background: var(--prime-ten);
+  background: #DB4A2B ;
   color: #fff;
   letter-spacing: -0.2px;
 }
@@ -1136,12 +1137,12 @@ body .btn-twentySix:hover:after {
 .theme-main-menu .contact-btn-two {
   line-height: 48px;
   border: 1px solid var(--prime-two);
-  color: var(--prime-two);
+  color: #DB4A2B;
   border-radius: 30px;
   padding: 0 35px;
 }
 .theme-main-menu .contact-btn-two:hover {
-  background: var(--prime-two);
+  background: #DB4A2B;
   color: #fff;
 }
 .theme-main-menu .contact-btn-three {
@@ -1213,7 +1214,7 @@ body .btn-twentySix:hover:after {
   padding: 0 35px;
 }
 .theme-main-menu .login-btn-one:hover {
-  background: var(--prime-two);
+  background: #DB4A2B ;
   color: #fff;
 }
 .theme-main-menu .login-btn-two {
@@ -2697,7 +2698,7 @@ body .btn-twentySix:hover:after {
   border-radius: 0 45px 45px 0;
 }
 .pricing-nav-one .nav-item .nav-link.active {
-  background: var(--prime-two);
+  background: #DB4A2B;
   color: #fff;
 }
 .pricing-table-area-one .pr-table-wrapper {
@@ -2920,7 +2921,7 @@ body .btn-twentySix:hover:after {
   color: #000;
 }
 .footer-style-two .mobile {
-  color: var(--prime-two);
+  color: #DB4A2B ;
 }
 .footer-style-two .mobile:hover {
   text-decoration: underline;
@@ -5251,13 +5252,13 @@ body .btn-twentySix:hover:after {
 }
 .blog-meta-three .read-btn-two {
   line-height: 45px;
-  border: 1px solid var(--prime-ten);
+  border: 1px solid #DB4A2B;
   border-radius: 23px;
   padding: 0 32px;
-  color: var(--prime-ten);
+  color: #DB4A2B;
 }
 .blog-meta-three .read-btn-two:hover {
-  background: var(--prime-ten);
+  background: #DB4A2B;
   color: #fff;
 }
 .blog-meta-three.text-style {
@@ -8862,7 +8863,7 @@ body .btn-twentySix:hover:after {
 /*^^^^^^^^^^^^^^^^^^^^^ Feature Section Fifty One ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .fancy-feature-fiftyOne h6 {
   font-size: 20px;
-  color: var(--prime-ten);
+  color: #DB4A2B;
 }
 .fancy-feature-fiftyOne .text-lg {
   line-height: 2.08em;
@@ -8912,7 +8913,7 @@ body .btn-twentySix:hover:after {
   border-radius: 15px;
 }
 .team-section-two .cr-text span {
-  color: var(--prime-ten);
+  color: #DB4A2B;
 }
 .team-section-two .shape-one {
   top: 9%;
@@ -8923,7 +8924,7 @@ body .btn-twentySix:hover:after {
   letter-spacing: -0.5px;
 }
 .partner-section-six .title span {
-  color: var(--prime-ten);
+  color: #DB4A2B;
 }
 .partner-section-six .br-name {
   font-size: 34px;
@@ -8941,7 +8942,7 @@ body .btn-twentySix:hover:after {
   line-height: 1.16em;
 }
 .fancy-short-banner-sixteen .sc-title {
-  color: var(--prime-ten);
+  color: #DB4A2B;
 }
 /*^^^^^^^^^^^^^^^^^^^^^ Theme Inner Banner One ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .inner-banner-one {
@@ -9635,7 +9636,7 @@ body .btn-twentySix:hover:after {
 }
 .address-block-two p .call {
   font-size: 22px;
-  color: var(--prime-ten);
+  color: #DB4A2B;
 }
 .address-block-two p .call:hover {
   text-decoration: underline;
