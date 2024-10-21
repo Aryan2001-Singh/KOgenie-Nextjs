@@ -36,22 +36,24 @@ const Hero = () => {
               data-aos="fade-up"
             >
               <h1 className="hero-heading fw-normal font-recoleta position-relative">
-                <img
+                {/* <img
                   src="/images/shape/shape_25.svg"
                   alt="shape"
                   className="lazy-img shapes line-shape"
-                />
-                Create your
-                <span className="position-relative d-inline-block">
-                  workspace
-                </span>
+                /> */}
+                Create ads that boost sales in just 5 minutes
+                <span className="position-relative d-inline-block"></span>
                 &amp; make life easier.
               </h1>
               <p className="text-lg mb-75 pt-20 lg-mb-50 lg-pt-10">
-                KOgenie is your online team mangement tool that easy and promot
+                KOgenie makes your ad in just 5 minutes so you can launch ad
+                campaigns swiftly, helping you get more people to buy your
+                product/service faster.
               </p>
               <div className="d-sm-flex justify-content-center align-items-center">
-                <Link
+                <Link style={{
+                  background:'#DB4A2B',
+                }}
                   href="/sign-up"
                   className="tran3s fs-17 fw-500 btn-three mb-25 ms-2 me-3"
                 >

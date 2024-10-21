@@ -41,7 +41,9 @@ const SassProduct = () => {
                 <p className="text-lg mt-25 mb-60 lg-mb-40">
                   Our platform makes it easy to integrate your existing tools for a seamless experience.
                 </p>
-                <Link href="/pages-menu/about-us-v1" className="btn-four fw-500">
+                <Link style={{
+                  background:'#DB4A2B'
+                }}href="/pages-menu/about-us-v1" className="btn-four fw-500">
                   Learn More
                 </Link>
               </div>
@@ -89,7 +91,9 @@ const SassProduct = () => {
                 <p className="text-lg mt-40 mb-75 lg-mt-30 lg-mb-50">
                   Our tools are trusted by over 150,000 clients worldwide.
                 </p>
-                <Link href="/sign-up" className="btn-four fw-500">
+                <Link style={{
+                  background:'#DB4A2B',
+                }}href="/sign-up" className="btn-four fw-500">
                   Try Free Now
                 </Link>
               </div>

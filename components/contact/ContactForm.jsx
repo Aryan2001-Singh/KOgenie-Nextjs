@@ -47,7 +47,12 @@ const ContactForm4 = () => {
         {/* End .col-12 */}
 
         <div className="col-12">
-          <button className="btn-twentyTwo w-100 fw-500 tran3s text-uppercase">
+          <button
+            style={{
+              background: "#DB4A2B",
+            }}
+            className="btn-twentyTwo w-100 fw-500 tran3s text-uppercase"
+          >
             SEND MESSAGE
           </button>
         </div>

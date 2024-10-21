@@ -5,21 +5,21 @@ const BlockContact5 = () => {
     {
       icon: "/images/icon/icon_178.svg",
       title: "Our Address",
-      content: "1012 Pebda Parkway, Mirpur 2 Dhaka, Bangladesh",
+      content: "Block K1,34 Chittaranjana Park, New Delhi 110019",
       delay: "100",
     },
     {
       icon: "/images/icon/icon_179.svg",
       title: "Contact Info",
       content: "Open a chat or give us call at",
-      link: "tel:310.841.5500",
+      link: "tel:+91 88261 32744",
       delay: "200",
     },
     {
       icon: "/images/icon/icon_180.svg",
       title: "Live Support",
       content: "live chat service",
-      link: "www.janolivechat.com",
+      link: "www.kogenie.com",
       delay: "300",
     },
   ];
