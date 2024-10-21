@@ -8,6 +8,7 @@ import Team3 from "@/components/team/Team3";
 import Link from "next/link";
 import VideoBlock from "@/components/about/VideoBlock";
 import Counter from "@/components/about/Counter";
+import Header from "@/components/home-page/home-6/Header";
 
 export const metadata = {
   title: "About Us || KOgenie - E-commerce and Digital Solutions",
@@ -31,7 +32,7 @@ const AboutUsV1 = () => {
   return (
     <>
       {/* Header */}
-      <DefaulHeader />
+      <Header />
 
       {/* Feature Section Fifty One */}
       <div className="fancy-feature-fiftyOne position-relative mt-200">

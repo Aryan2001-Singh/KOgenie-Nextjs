@@ -2,7 +2,7 @@ import BlockContact5 from "@/components/contact/BlockContact";
 import ContactForm4 from "@/components/contact/ContactForm";
 import Map2 from "@/components/contact/Map";
 import DefaultFooter from "@/components/footer/DefaultFooter";
-import DefaulHeader from "@/components/header/DefaulHeader";
+import Header from "@/components/home-page/home-6/Header";
 export const metadata = {
   title: "Contact v4 || Jano - Creative Multipurpose React NextJS Template",
 };
@@ -15,7 +15,7 @@ const ContactV4 = () => {
       Theme Default Menu
       ============================================== 	
       --> */}
-      <DefaulHeader />
+      <Header />
       {/* 
 			=============================================
 				Contact Section Four
@@ -29,13 +29,16 @@ const ContactV4 = () => {
                 className="title-style-fourteen text-center mb-100 lg-mb-50"
                 data-aos="fade-up"
               >
-                <div className="sc-title">CONTACT US</div>
+                <div
+                  style={{
+                    color: "#DB4A2B",
+                  }}
+                  className="sc-title"
+                >
+                  CONTACT US
+                </div>
                 <h2 className="main-title font-recoleta fw-normal tx-dark">
-                  Our{" "}
-                  <span className="position-relative">
-                    team <img src="/images/shape/shape_186.svg" alt="icon" />
-                  </span>
-                  are here to help you.
+                  Our team are here to help you.
                 </h2>
               </div>
               {/* /.title-style-fourteen */}

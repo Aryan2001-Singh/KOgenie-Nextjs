@@ -6,6 +6,7 @@ import Category from "@/components/blog/Category";
 import RecentPost from "@/components/blog/RecentPost";
 import BannerPost from "@/components/blog/BannerPost";
 import Blog2 from "@/components/blog/Blog";
+import Header from "@/components/home-page/home-6/Header";
 
 const GridWithSidebar = () => {
   return (
@@ -15,7 +16,7 @@ const GridWithSidebar = () => {
       Theme Default Menu
       ============================================== 	
       --> */}
-      <DefaulHeader />
+      <Header />
 
       {/* 
 			=============================================
