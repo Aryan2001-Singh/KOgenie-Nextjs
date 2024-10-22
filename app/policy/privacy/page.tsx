@@ -5,7 +5,7 @@ export const metadata = {
   title: "Cookie policy",
 };
 
-const PrivacyPolicy = () => {
+const PPolicy = () => {
   return (
     <>
       {/* 
@@ -23,7 +23,7 @@ const PrivacyPolicy = () => {
               <p><strong>Last updated: May 12, 2022</strong></p>
 
               <p>
-                This Cookie Policy explains how KOGENIE E-SOLUTIONS PRIVATE LIMITED ("Company", "we", "us", and "our") uses cookies and similar technologies to recognize you when you visit our website at <a href="http://www.kogenie.com">www.kogenie.com</a> (the "Website").
+                This Cookie Policy explains how KOGENIE E-SOLUTIONS PRIVATE LIMITED (&quot;Company&quot;, &quot;we&quot;, &quot;us&quot;, and &quot;our&quot;) uses cookies and similar technologies to recognize you when you visit our website at <a href="http://www.kogenie.com">www.kogenie.com</a> (the &quot;Website&quot;).
               </p>
 
               <h3>What are cookies?</h3>
@@ -48,7 +48,7 @@ const PrivacyPolicy = () => {
 
               <h3>Targeted advertising</h3>
               <p>
-                Third-party cookies may track your activity across different websites to serve relevant ads. You can opt out using your browser's privacy settings or third-party opt-out tools.
+                Third-party cookies may track your activity across different websites to serve relevant ads. You can opt out using your browser&apos;s privacy settings or third-party opt-out tools.
               </p>
 
               <h3>Policy updates</h3>
@@ -68,9 +68,9 @@ const PrivacyPolicy = () => {
         </div>
       </div>
 
-    <DefaultFooter />
+      <DefaultFooter />
     </>
   );
 };
 
-export default PrivacyPolicy;
+export default PPolicy;
