@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect, ChangeEvent, CSSProperties } from "react";
+import React, { useState, useEffect, ChangeEvent, CSSProperties, useCallback } from "react";
 import { useAdStore } from "@/store/useAdStore";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -12,7 +12,7 @@ import {
 import Image from "next/image";
 
 const CreateAdPage = () => {
-  const adDataFromStore = useAdStore((state) => state.adData); // Get data from store
+  const adDataFromStore = useAdStore((state) => state.adData);
   const [adData, setAdData] = useState({
     brandName: "",
     productName: "",
@@ -21,23 +21,21 @@ const CreateAdPage = () => {
   });
   const [isMounted, setIsMounted] = useState(false);
   const [imageUrl, setImageUrl] = useState<string | null>(null);
-
-  const [aspectRatio] = useState("16:9"); 
-  // Default aspect ratio for Instagram landscape posts
+  const [aspectRatio] = useState("16:9");
 
   useEffect(() => {
     setIsMounted(true);
     if (adDataFromStore) {
-      setAdData(adDataFromStore); // Set initial ad data from the store
+      setAdData(adDataFromStore);
     }
   }, [adDataFromStore]);
 
-  const generateAdCopy = () => {
+  const generateAdCopy = useCallback(() => {
     if (adData.brandName && adData.productName && adData.productDescription) {
       return `Introducing ${adData.productName} from ${adData.brandName}! ${adData.productDescription}`;
     }
     return "Caption of the post goes here...";
-  };
+  }, [adData.brandName, adData.productName, adData.productDescription]);
 
   useEffect(() => {
     const updatedAdCopy = generateAdCopy();
@@ -45,7 +43,9 @@ const CreateAdPage = () => {
       ...prevState,
       adCopy: updatedAdCopy,
     }));
-  }, [adData.brandName, adData.productName, adData.productDescription, generateAdCopy]);
+  }, [generateAdCopy]);
+
+  // Rest of the component remains the same...
 
   const handleInputChange = (
     e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
