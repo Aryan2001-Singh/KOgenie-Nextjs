@@ -11,7 +11,7 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 if (typeof window !== "undefined") {
-  require("bootstrap/dist/js/bootstrap");
+  import ("bootstrap/dist/js/bootstrap");
 }
 
 export default function RootLayout({ children }) {
