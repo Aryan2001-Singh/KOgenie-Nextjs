@@ -19,6 +19,8 @@ const PortfolioTopTitle = () => {
       <Image
         src="/images/shape/shape_172.svg"
         alt="shap"
+        width={90}
+        height={30}
         className="lazy-img shapes shape-two"
       />
       <Image

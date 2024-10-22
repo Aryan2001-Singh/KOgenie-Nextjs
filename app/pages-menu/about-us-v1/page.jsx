@@ -1,4 +1,3 @@
-
 import DefaultFooter from "@/components/footer/DefaultFooter";
 import Partners from "@/components/services/Partners";
 import Faq from "@/components/services/Faq";
@@ -69,11 +68,15 @@ const AboutUsV1 = () => {
         <Image
           src="/images/shape/shape_171.svg"
           alt="shape"
+          width={100}
+          height={100}
           className="lazy-img shapes shape-one"
         />
         <Image
           src="/images/shape/shape_172.svg"
           alt="shape"
+          width={100}
+          height={100}
           className="lazy-img shapes shape-two"
         />
       </div>
@@ -163,6 +166,8 @@ const AboutUsV1 = () => {
         <Image
           src="/images/shape/shape_172.svg"
           alt="shape"
+          width={100}
+          height={100}
           className="lazy-img shapes shape-one d-none d-xl-inline-block"
         />
       </div>

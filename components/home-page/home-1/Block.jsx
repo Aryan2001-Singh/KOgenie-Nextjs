@@ -6,6 +6,8 @@ const Block = () => {
           <Image
             src="/images/shape/shape_136.svg"
             alt="shape"
+            width={90}
+            height={40}
             className="lazy-img d-none d-sm-inline-block"
           />
         </div>
@@ -33,6 +35,8 @@ const Block = () => {
             <Image
               src="/images/shape/shape_138.svg"
               alt="sahpe"
+              width={90}
+              height={30}
               className="lazy-img shapes shape-one"
             />
           </div>
@@ -51,6 +55,8 @@ const Block = () => {
           <Image
             src="/images/shape/shape_137.svg"
             alt="shape"
+            width={90}
+            height={30}
             className="lazy-img mt-30 ms-auto me-auto d-none d-sm-inline-block"
           />
         </div>

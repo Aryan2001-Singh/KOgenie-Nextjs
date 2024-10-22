@@ -17,11 +17,15 @@ const PortfolioDetailsTitle = ({ portfolio }) => {
       <Image
         src="/images/shape/shape_172.svg"
         alt="shap"
+        width={90}
+        height={30}
         className="lazy-img shapes shape-two"
       />
       <Image
         src="/images/shape/shape_175.svg"
         alt="shap"
+        width={90}
+        height={30}
         className="lazy-img shapes shape-three"
       />
     </div>

@@ -41,6 +41,8 @@ const GridWithSidebar = () => {
         <Image
           src="/images/shape/shape_172.svg"
           alt="shape"
+          width={90}
+          height={30}
           className="lazy-img shapes shape-two"
         />
       </div>

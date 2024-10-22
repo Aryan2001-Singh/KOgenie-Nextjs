@@ -9,7 +9,6 @@ import Blog from "@/components/feature-sass/Blog";
 import Features from "@/components/feature-sass/Features";
 import Features2 from "@/components/feature-sass/Features2";
 import Hero from "@/components/feature-sass/Hero";
-import Image from 'next/image';
 export const metadata = {
   title: "Features V1 || Jano - Creative Multipurpose React NextJS Template",
 };

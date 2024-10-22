@@ -2,6 +2,7 @@ import Link from "next/link";
 import Footer2 from "./Footer2";
 import NewsLetter from "./NewsLetter";
 import CopyrightFooter2 from "./CopyrightFooter2";
+import Image from "next/image";
 
 const DefaultFooter = () => {
   return (
@@ -41,6 +42,8 @@ const DefaultFooter = () => {
         src="/images/shape/shape_173.svg"
         alt="shape"
         className="lazy-img shapes shape-one"
+        width={90}
+        height={30}
       />
     </div>
   );

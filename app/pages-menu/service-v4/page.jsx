@@ -90,6 +90,8 @@ const ServiceV4 = () => {
                 <Image
                   src="/images/shape/shape_179.svg"
                   alt="shape"
+                  width={90}
+                  height={30}
                   className="lazy-img d-none d-lg-block mt-40"
                 />
               </div>
