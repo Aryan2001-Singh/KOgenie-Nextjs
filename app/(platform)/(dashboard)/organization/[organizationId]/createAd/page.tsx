@@ -22,7 +22,8 @@ const CreateAdPage = () => {
   const [isMounted, setIsMounted] = useState(false);
   const [imageUrl, setImageUrl] = useState<string | null>(null);
 
-  const [aspectRatio, setAspectRatio] = useState("16:9"); // Default aspect ratio for Instagram landscape posts
+  const [aspectRatio] = useState("16:9"); 
+  // Default aspect ratio for Instagram landscape posts
 
   useEffect(() => {
     setIsMounted(true);
@@ -62,7 +63,7 @@ const CreateAdPage = () => {
     if (file) {
       const reader = new FileReader();
       reader.onload = (e) => {
-        const img = new Image();
+        const img = new window.Image();  // Use `window.Image` to avoid any confusion with the Next.js `Image` component
         img.src = e.target?.result as string;
         img.onload = () => {
           const canvas = document.createElement("canvas");
@@ -330,8 +331,10 @@ const CreateAdPage = () => {
             style={{ textAlign: "center", marginBottom: "20px" }}
           >
             <Image
-              src="https://placehold.co/640x360"
+              src={'/images/gallery/img_01.jpg'}
               alt="Placeholder"
+              width={90}
+              height={30}
               style={{ width: "100%", borderRadius: "12px" }}
             />
           </div>
@@ -359,8 +362,10 @@ const CreateAdPage = () => {
               }}
             >
               <Image
-                src="/insta-logo.jpg"
-                style={{ width: "40px", borderRadius: "50%" }}
+                src="/public/images/gallery/img_01.jpg"
+                 width={40}
+                 height={60}
+                 style={{borderRadius:'50%'}}
                 alt="Profile"
               />
               <span className="username" style={{ fontWeight: "bold" }}>
@@ -377,6 +382,8 @@ const CreateAdPage = () => {
                 src={imageUrl}
                 className="uploaded-image"
                 alt="Uploaded"
+                width={40}
+                 height={60}
                 style={{ width: "100%", borderRadius: "12px" }}
               />
             </div>
