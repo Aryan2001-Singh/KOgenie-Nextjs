@@ -3,18 +3,18 @@ import { authMiddleware } from "@clerk/nextjs/server";
 import { RedirectToSignIn } from "@clerk/nextjs";
 
 export default authMiddleware({
-  publicRoutes: ['/'],  // Handle dynamic segments with :param syntax
+  publicRoutes: ['/'],
   afterAuth(auth, req) {
-    // Ensure that 'auth' is properly initialized
+    // Handle missing auth by redirecting to error page or home
     if (!auth) {
-      return NextResponse.error(new Error("Authentication object is missing"));
+      const errorUrl = new URL('/', req.url);
+      return NextResponse.redirect(errorUrl);
     }
 
     // If the user is authenticated and the route is public, redirect to organization selection or organization page
     if (auth.userId && auth.isPublicRoute) {
       let path = "/select-org";
 
-      // Redirect to the organization page if the user has an organization
       if (auth.orgId) {
         path = `/organization/${auth.orgId}`;
       }
@@ -22,11 +22,6 @@ export default authMiddleware({
       const orgSelection = new URL(path, req.url);
       return NextResponse.redirect(orgSelection);
     }
-
-    // If the user is not authenticated and the route is not public, redirect to sign-in
-    // if (!auth.userId && !auth.isPublicRoute) {
-    //   return RedirectToSignIn({ redirectUrl: req.url });
-    // }
 
     // If the user is authenticated but hasn't selected an organization, redirect to organization selection
     if (auth.userId && !auth.orgId && req.nextUrl.pathname !== "/select-org") {
@@ -42,14 +37,3 @@ export default authMiddleware({
 export const config = {
   matcher: ['/((?!.+\\.[\\w]+$|_next).*)', '/', '/(api|trpc)(.*)'],
 };
-
-// import { NextResponse } from "next/server";
-// import { authMiddleware } from "@clerk/nextjs/server";
-
-// export default authMiddleware({
-//   publicRoutes: ['/', '/organization/:organizationId/createAd'],  // Ensure this matches your dynamic route
-// });
-
-// export const config = {
-//   matcher: ['/((?!.+\\.[\\w]+$|_next).*)', '/', '/(api|trpc)(.*)'],
-// };
