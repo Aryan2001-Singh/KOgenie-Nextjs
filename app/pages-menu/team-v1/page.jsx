@@ -2,6 +2,7 @@ import DefaulHeader from "@/components/header/DefaulHeader";
 import DefaultFooter from "@/components/footer/DefaultFooter";
 import Team1 from "@/components/team/Team1";
 import CallToAction from "@/components/team/CallToAction";
+import Image from "next/image";
 export const metadata = {
   title: "Team V1 || Jano - Creative Multipurpose React NextJS Template",
 };

@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const logos = [
   { id: "a", src: "/images/logo/p-1.png", className: "lazy-img" },
