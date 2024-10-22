@@ -45,7 +45,7 @@ const CreateAdPage = () => {
       ...prevState,
       adCopy: updatedAdCopy,
     }));
-  }, [adData.brandName, adData.productName, adData.productDescription]);
+  }, [adData.brandName, adData.productName, adData.productDescription, generateAdCopy]);
 
   const handleInputChange = (
     e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
