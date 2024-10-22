@@ -17,7 +17,7 @@ const MainMenu = () => {
     { title: "About", link: "/pages-menu/about-us-v1" },
     { title: "Service", link: "/pages-menu/service-v4" },
     { title: "Blog", link: "/blog" },
-    { title: "Contact us", link: "/contact" },
+    { title: "Contact Us", link: "/contact" },
   ];
 
   return (
