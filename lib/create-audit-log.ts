@@ -1,5 +1,4 @@
-import { currentUser } from "@clerk/nextjs";
-import { auth } from "@clerk/nextjs/server";
+import { auth, currentUser } from "@clerk/nextjs/server";
 import { ACTION, ENTITY_TYPE } from "@prisma/client";
 
 import { db } from "@/lib/db";
@@ -31,7 +30,7 @@ export const createAuditLog = async (props: Props) => {
         action,
         userId: user.id,
         userImage: user?.imageUrl,
-        userName: user?.firstName + " " + user?.lastName,
+        userName: `${user?.firstName || ''} ${user?.lastName || ''}`.trim(),
       }
     });
   } catch (error) {
