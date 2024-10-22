@@ -45,7 +45,7 @@ const Features2 = () => {
               button.platform === "App store" ? "ios-button" : "windows-button"
             }`}
           >
-            <img
+            <Image
               src={button.imgSrc}
               alt={button.imgAlt}
               className="lazy-img icon"

@@ -14,7 +14,7 @@ const Blog = () => {
           <article className="blog-meta-three mt-40 ">
             <figure className="post-img m0">
               <Link href={`/blog/${post.id}`} className="w-100 d-block">
-                <img
+                <Image
                   src={post.imageSrc}
                   alt="blog"
                   className="lazy-img w-100 tran4s"

@@ -67,7 +67,7 @@ const Block1 = () => {
               {/* /.meta-point */}
             </div>
             <div className="mt-15 d-sm-flex justify-content-between align-items-center">
-              <img
+              <Image
                 src={block.shape}
                 alt="shape"
                 className=" order-sm-last"

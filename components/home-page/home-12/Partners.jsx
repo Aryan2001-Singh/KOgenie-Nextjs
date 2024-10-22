@@ -66,7 +66,7 @@ const Partners = () => {
       {partners.map((partner) => (
         <div className="item" key={partner.id}>
           <div className="icon d-flex align-items-center justify-content-center">
-            <img src={partner.logo} alt="" />
+            <Image src={partner.logo} alt="" />
           </div>
         </div>
       ))}

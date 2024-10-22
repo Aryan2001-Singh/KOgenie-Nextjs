@@ -8,7 +8,7 @@ const Intro = () => {
         </h2>
       </div>
       <div className="d-flex mt-70 mb-40 lg-mt-40 lg-mb-10">
-        <img
+        <Image
           src="/images/shape/shape_164.svg"
           alt=""
           className="lazy-img d-none d-lg-block"

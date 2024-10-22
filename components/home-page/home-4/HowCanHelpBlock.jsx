@@ -1,7 +1,7 @@
 const HowCanHelpBlock = () => {
   return (
     <div className="fancy-feature-seventeen position-relative">
-      <img
+      <Image
         src="/images/shape/shape_80.svg"
         alt="shape"
         className="lazy-img shapes shape-four"
@@ -32,23 +32,23 @@ const HowCanHelpBlock = () => {
 
           <div className="col-lg-6 order-lg-first" data-aos="fade-right">
             <div className="img-meta d-inline-block position-relative">
-              <img
+              <Image
                 src="/images/media/img_34.png"
                 alt="media"
                 className="lazy-img"
               />
-              <img
+              <Image
                 src="/images/shape/shape_77.svg"
                 alt="media"
                 className="lazy-img shapes shape-one"
               />
-              <img
+              <Image
                 src="/images/shape/shape_78.svg"
                 alt="media"
                 className="lazy-img shapes shape-two"
               />
               <div className="shape-three position-absolute">
-                <img
+                <Image
                   src="/images/shape/shape_79.svg"
                   alt="media"
                   className="lazy-img"

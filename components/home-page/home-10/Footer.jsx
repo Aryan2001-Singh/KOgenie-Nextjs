@@ -31,10 +31,10 @@ const Footer = () => {
       <div className="col-xl-3 col-lg-2 footer-intro mb-40">
         <div className="logo">
           <Link href="/">
-            <img src="/images/logo/logo_012.svg" alt="" width={95} />
+            <Image src="/images/logo/logo_012.svg" alt="" width={95} height={50}/>
           </Link>
         </div>
-        <img
+        <Image
           src="/images/shape/shape_24.svg"
           alt="shape"
           className="mt-60 d-none d-lg-block"

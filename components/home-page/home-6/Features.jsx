@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const FeatureData = [
   {
@@ -7,6 +8,8 @@ const FeatureData = [
     title: "Product Catalog Management",
     description:
       "Efficiently manage and organize product data, ensuring seamless integration across multiple platforms for KOgenie clients.",
+    iconWidth: 75,  // Provide width for each icon
+    iconHeight: 75, // Provide height for each icon
   },
   {
     id: 2,
@@ -14,6 +17,8 @@ const FeatureData = [
     title: "Brand Strategy",
     description:
       "Develop strong brand identities that resonate with target audiences, helping businesses grow their online presence.",
+    iconWidth: 75,
+    iconHeight: 75,
   },
   {
     id: 3,
@@ -21,6 +26,8 @@ const FeatureData = [
     title: "Digital Advertising",
     description:
       "Utilize advanced AI tools to optimize digital advertising campaigns, ensuring better ROI and audience targeting.",
+    iconWidth: 75,
+    iconHeight: 75,
   },
   {
     id: 4,
@@ -28,6 +35,8 @@ const FeatureData = [
     title: "E-commerce Integration",
     description:
       "Simplify the process of integrating your e-commerce platform with KOgenie’s tools to streamline operations and sales.",
+    iconWidth: 75,
+    iconHeight: 75,
   },
   {
     id: 5,
@@ -35,6 +44,8 @@ const FeatureData = [
     title: "Data Analytics",
     description:
       "Leverage data analytics to gain insights into customer behavior and market trends, enabling data-driven decision-making.",
+    iconWidth: 75,
+    iconHeight: 75,
   },
 ];
 
@@ -50,15 +61,23 @@ const Features = () => {
         >
           <div className="card-style-three">
             <div className="icon d-flex align-items-end">
-              <img src={feature.iconSrc} alt="icon" className="lazy-img" />
+              <Image
+                src={feature.iconSrc}
+                alt="icon"
+                className="lazy-img"
+                width={feature.iconWidth}  // Add width
+                height={feature.iconHeight}  // Add height
+              />
             </div>
             <h4 className="mt-25 mb-20">{feature.title}</h4>
             <p className="mb-50">{feature.description}</p>
             <Link href="/pages-menu/service-details">
-              <img
+              <Image
                 src="/images/icon/icon_18.svg"
                 alt="icon"
                 className="lazy-img"
+                width={39}  // Provide width for this image
+                height={15}  // Provide height for this image
               />
             </Link>
           </div>

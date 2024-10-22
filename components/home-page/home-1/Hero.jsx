@@ -54,7 +54,7 @@ const Hero1 = () => {
 
             <div>
               <div className="approval-info d-inline-flex align-items-center mt-130 lg-mt-80">
-                <img src="/images/icon/icon_99.svg" alt="" className="me-1" />
+                <Image src="/images/icon/icon_99.svg" alt="" className="me-1" />
                 <span>An UK insurer approved by the UICO.</span>
               </div>
             </div>

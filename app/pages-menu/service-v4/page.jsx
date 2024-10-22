@@ -87,7 +87,7 @@ const ServiceV4 = () => {
                   We empower businesses by offering tailored e-commerce and
                   digital marketing solutions to meet their unique needs.
                 </p>
-                <img
+                <Image
                   src="/images/shape/shape_179.svg"
                   alt="shape"
                   className="lazy-img d-none d-lg-block mt-40"

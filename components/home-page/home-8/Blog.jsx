@@ -33,7 +33,7 @@ const Blog = () => {
             data-aos-delay={index * 100 + 100}
           >
             <div className="logo">
-              <img src={post.logo} alt="logo" className="lazy-img" />
+              <Image src={post.logo} alt="logo" className="lazy-img" />
             </div>
             <div className="post-data mt-110 lg-mt-50">
               <div
@@ -41,7 +41,7 @@ const Blog = () => {
                 onClick={() => openModal(post.videoId)}
                 role="button"
               >
-                <img src={post.icon} alt="logo" className="lazy-img" />
+                <Image src={post.icon} alt="logo" className="lazy-img" />
               </div>
               <Link href={`/blog/${post.id}`}>
                 <h4 className="tran3s blog-title text-white mt-20 mb-55 lg-mb-30">
@@ -53,7 +53,7 @@ const Blog = () => {
                 className="read-btn fw-500 text-white d-flex justify-content-between align-items-center"
               >
                 <span>Continue Reading</span>
-                <img src="/images/icon/icon_88.svg" alt="logo" />
+                <Image src="/images/icon/icon_88.svg" alt="logo" />
               </Link>
             </div>
           </article>

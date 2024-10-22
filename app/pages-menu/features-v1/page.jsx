@@ -9,6 +9,7 @@ import Blog from "@/components/feature-sass/Blog";
 import Features from "@/components/feature-sass/Features";
 import Features2 from "@/components/feature-sass/Features2";
 import Hero from "@/components/feature-sass/Hero";
+import Image from 'next/image';
 export const metadata = {
   title: "Features V1 || Jano - Creative Multipurpose React NextJS Template",
 };
@@ -27,12 +28,12 @@ const FeaturesV1 = () => {
         ============================================== 
         */}
       <div className="hero-banner-two position-relative pt-160 md-pt-150">
-        <img
+        <Image
           src="/images/shape/shape_182.svg"
           alt="shape"
           className="lazy-img shapes shape-left-two"
         />
-        <img
+        <Image
           src="/images/shape/shape_183.svg"
           alt="shape"
           className="lazy-img shapes shape-right-two"
@@ -88,7 +89,7 @@ const FeaturesV1 = () => {
                       We’ve ton of
                       <span className="position-relative d-inline-block">
                         features
-                        <img
+                        <Image
                           src="/images/shape/shape_181.svg"
                           alt="icon"
                           className="lazy-img shapes line-shape"
@@ -244,12 +245,12 @@ const FeaturesV1 = () => {
           </div>
           <div className="shapes shape-one rounded-circle" />
           <div className="shapes shape-two rounded-circle" />
-          <img
+          <Image
             src="/images/shape/shape_42.svg"
             alt="shape"
             className="lazy-img shapes shape-three"
           />
-          <img
+          <Image
             src="/images/shape/shape_43.svg"
             alt="shape"
             className="lazy-img shapes shape-four"

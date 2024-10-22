@@ -7,6 +7,7 @@ import Pricing2 from "@/components/pricing/Pricing2";
 import Link from "next/link";
 import Faq2 from "@/components/faqs/Faq2";
 import SocialPartner from "@/components/common/SocialPartner";
+import Image from 'next/image';
 export const metadata = {
   title: "Pricing V2 || Jano - Creative Multipurpose React NextJS Template",
 };
@@ -26,12 +27,12 @@ const PricingV2 = () => {
         ============================================== 
         */}
       <div className="hero-banner-two position-relative mt-160 pb-80 md-mt-150 lg-pb-50">
-        <img
+        <Image
           src="/images/shape/shape_182.svg"
           alt="shape"
           className="lazy-img shapes shape-left-two"
         />
-        <img
+        <Image
           src="/images/shape/shape_183.svg"
           alt="shape"
           className="lazy-img shapes shape-right-two"
@@ -69,7 +70,7 @@ const PricingV2 = () => {
         {/* End container */}
 
         <div className="shapes shape-one rounded-circle" />
-        <img
+        <Image
           src="/images/shape/shape_40.svg"
           alt="shape"
           className="lazy-img shapes shape-two"
@@ -203,12 +204,12 @@ const PricingV2 = () => {
           </div>
           <div className="shapes shape-one rounded-circle" />
           <div className="shapes shape-two rounded-circle" />
-          <img
+          <Image
             src="/images/shape/shape_42.svg"
             alt="shape"
             className="lazy-img shapes shape-three"
           />
-          <img
+          <Image
             src="/images/shape/shape_43.svg"
             alt="shape"
             className="lazy-img shapes shape-four"

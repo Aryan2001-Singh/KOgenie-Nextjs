@@ -24,7 +24,7 @@ const Hero = () => {
 
   const renderImages = () => {
     return images.map((image, index) => (
-      <img
+      <Image
         key={index}
         src={image.src}
         alt={image.alt}
@@ -36,7 +36,7 @@ const Hero = () => {
   return (
     <div className="hero-banner-four text-center position-relative" id="s1">
       <div className="container">
-        <img
+        <Image
           src="/images/media/img_26.jpg"
           alt=""
           className="lazy-img avatar-img m-auto rounded-circle"
@@ -83,7 +83,7 @@ const Hero = () => {
       <div className="fancy-img-block fancy-block-one">
         <div className="r-shape-one position-absolute" />
         <div className="r-shape-two position-absolute rounded-circle" />
-        <img
+        <Image
           src="/images/media/img_27.jpg"
           alt="media"
           className="lazy-img main-img"
@@ -94,7 +94,7 @@ const Hero = () => {
       <div className="fancy-img-block fancy-block-two">
         <div className="r-shape-three position-absolute rounded-circle" />
         <div className="r-shape-four position-absolute rounded-circle" />
-        <img
+        <Image
           src="/images/media/img_28.jpg"
           alt="media"
           className="lazy-img main-img"

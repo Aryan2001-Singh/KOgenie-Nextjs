@@ -1,4 +1,4 @@
-import DefaulHeader from "@/components/header/DefaulHeader";
+
 import DefaultFooter from "@/components/footer/DefaultFooter";
 import Partners from "@/components/services/Partners";
 import Faq from "@/components/services/Faq";
@@ -9,6 +9,7 @@ import Link from "next/link";
 import VideoBlock from "@/components/about/VideoBlock";
 import Counter from "@/components/about/Counter";
 import Header from "@/components/home-page/home-6/Header";
+import Image from 'next/image';
 
 export const metadata = {
   title: "About Us || KOgenie - E-commerce and Digital Solutions",
@@ -65,12 +66,12 @@ const AboutUsV1 = () => {
           </div>
         </div>
 
-        <img
+        <Image
           src="/images/shape/shape_171.svg"
           alt="shape"
           className="lazy-img shapes shape-one"
         />
-        <img
+        <Image
           src="/images/shape/shape_172.svg"
           alt="shape"
           className="lazy-img shapes shape-two"
@@ -159,7 +160,7 @@ const AboutUsV1 = () => {
             </div>
           </div>
         </div>
-        <img
+        <Image
           src="/images/shape/shape_172.svg"
           alt="shape"
           className="lazy-img shapes shape-one d-none d-xl-inline-block"

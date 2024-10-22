@@ -1,42 +1,42 @@
 const ShapeGroup = () => {
   return (
     <>
-      <img
+      <Image
         src="/images/shape/shape_101.svg"
         alt="shape"
         className="lazy-img shapes oval-shape-one"
       />
-      <img
+      <Image
         src="/images/shape/shape_102.svg"
         alt="shape"
         className="lazy-img shapes oval-shape-two"
       />
-      <img
+      <Image
         src="/images/shape/shape_108.svg"
         alt="shape"
         className="lazy-img shapes oval-shape-three"
       />
-      <img
+      <Image
         src="/images/shape/shape_109.svg"
         alt="shape"
         className="lazy-img shapes oval-shape-four"
       />
-      <img
+      <Image
         src="/images/shape/shape_110.svg"
         alt="shape"
         className="lazy-img shapes oval-shape-five"
       />
-      <img
+      <Image
         src="/images/shape/shape_111.svg"
         alt="shape"
         className="lazy-img shapes oval-shape-six"
       />
-      <img
+      <Image
         src="/images/shape/shape_112.svg"
         alt="shape"
         className="lazy-img shapes oval-shape-seven"
       />
-      <img
+      <Image
         src="/images/shape/shape_113.svg"
         alt="shape"
         className="lazy-img shapes oval-shape-eight"

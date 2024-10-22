@@ -48,7 +48,7 @@ const Testimonial = () => {
         <div key={index} className="item">
           <div className="feedback-block-twelve">
             <div className="icon rounded-circle d-flex align-items-center justify-content-center">
-              <img src="/images/icon/icon_42.svg" alt="" />
+              <Image src="/images/icon/icon_42.svg" alt="" />
             </div>
             <p className="tx-dark mt-35 mb-40 pe-xxl-4">
               {testimonial.feedback}

@@ -9,6 +9,7 @@ import {
   faPaperPlane,
   faBookmark,
 } from "@fortawesome/free-solid-svg-icons";
+import Image from "next/image";
 
 const CreateAdPage = () => {
   const adDataFromStore = useAdStore((state) => state.adData); // Get data from store
@@ -328,7 +329,7 @@ const CreateAdPage = () => {
             className="post-image-container"
             style={{ textAlign: "center", marginBottom: "20px" }}
           >
-            <img
+            <Image
               src="https://placehold.co/640x360"
               alt="Placeholder"
               style={{ width: "100%", borderRadius: "12px" }}
@@ -357,7 +358,7 @@ const CreateAdPage = () => {
                 padding: "10px",
               }}
             >
-              <img
+              <Image
                 src="/insta-logo.jpg"
                 style={{ width: "40px", borderRadius: "50%" }}
                 alt="Profile"
@@ -372,7 +373,7 @@ const CreateAdPage = () => {
               className="post-image-container"
               style={{ textAlign: "center" }}
             >
-              <img
+              <Image
                 src={imageUrl}
                 className="uploaded-image"
                 alt="Uploaded"

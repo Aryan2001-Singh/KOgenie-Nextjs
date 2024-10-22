@@ -11,13 +11,13 @@ const Illustration = () => {
 
   return (
     <div className="illustration-holder">
-      <img
+      <Image
         src="/images/assets/ils_01.png"
         alt="illustration"
         className="lazy-img main-illustration w-100"
       />
       {shapes.map((shape, i) => (
-        <img
+        <Image
           key={i}
           src={shape.src}
           alt="illustration"

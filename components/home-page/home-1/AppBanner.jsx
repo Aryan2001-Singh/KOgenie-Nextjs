@@ -45,7 +45,7 @@ const AppBanner = () => {
                 className={`d-flex align-items-center ${button.className}`}
                 key={index}
               >
-                <img src={button.icon} alt="" className="lazy-img icon" />
+                <Image src={button.icon} alt="" className="lazy-img icon" />
                 <div>
                   <span>Get it on</span>
                   <strong>{button.platform}</strong>
@@ -61,22 +61,22 @@ const AppBanner = () => {
 
       <div className="col-lg-6" data-aos="fade-left">
         <div className="illustration-holder position-relative pt-50 pb-50 pe-md-5 lg-mt-80">
-          <img
+          <Image
             src="/images/media/img_57.png"
             alt=""
             className="lazy-img main-img ms-auto"
           />
-          <img
+          <Image
             src="/images/media/img_56.png"
             alt=""
             className="lazy-img screen-two"
           />
-          <img
+          <Image
             src="/images/shape/shape_139.svg"
             alt=""
             className="lazy-img shapes shape-one"
           />
-          <img
+          <Image
             src="/images/shape/shape_140.svg"
             alt=""
             className="lazy-img shapes shape-two"

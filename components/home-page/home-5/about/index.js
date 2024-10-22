@@ -16,7 +16,7 @@ const index = () => {
       {/* End .col-lg-6 */}
 
       <div className="col-lg-5 order-lg-first position-relative">
-        <ImgGallery />
+        <ImageGallery />
         {/* /.img-gallery */}
       </div>
       {/* End .col-lg-6 */}

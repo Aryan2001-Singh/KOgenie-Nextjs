@@ -97,7 +97,7 @@ const FeedbackSlider = () => {
             </ul>
             <p>{item.feedback}</p>
             <div className="d-flex align-items-center">
-              <img
+              <Image
                 src={item.image}
                 alt="media"
                 className="avatar rounded-circle"
@@ -106,7 +106,7 @@ const FeedbackSlider = () => {
                 {item.name}{" "}
                 <span className="d-block fw-normal">{item.location}</span>
               </h6>
-              <img
+              <Image
                 src="/images/icon/icon_35.svg"
                 alt="media"
                 className="ms-auto"

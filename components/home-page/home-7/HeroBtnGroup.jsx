@@ -80,7 +80,7 @@ const HeroBtnGroup = () => {
                   href="#"
                   onClick={(e) => handleOptionClick(e, option.label)}
                 >
-                  <img src={option.icon} alt="" />
+                  <Image src={option.icon} alt="" />
                   <span className="ps-2">{option.label}</span>
                 </a>
               </li>

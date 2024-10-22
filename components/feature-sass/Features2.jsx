@@ -57,9 +57,8 @@ const Features2 = () => {
           <div className="card-style-three border-0">
             <div className="icon d-flex align-items-end">
               <Image
-                width={75}
-                height={60}
-                style={{ objectFit: "contain" }}
+                width={75}  // Provide width
+                height={60}  // Provide height
                 src={feature.iconSrc}
                 alt="icon"
                 className="lazy-img"
@@ -69,8 +68,8 @@ const Features2 = () => {
             <p className="mb-50">{feature.description}</p>
             <Link href="/pages-menu/service-details">
               <Image
-                width={39}
-                height={15}
+                width={39}  // Provide width
+                height={15}  // Provide height
                 src="/images/icon/icon_18.svg"
                 alt="icon"
                 className="lazy-img"

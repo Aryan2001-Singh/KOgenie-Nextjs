@@ -29,7 +29,7 @@ const Property = () => {
           data-aos-delay={property.delay}
         >
           <div className="card-style-twentyOne position-relative mt-35">
-            <img
+            <Image
               src={property.image}
               alt={property.title}
               className="lazy-img w-100"

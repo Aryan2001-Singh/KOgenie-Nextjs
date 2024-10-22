@@ -2,6 +2,7 @@ import DefaulHeader from "@/components/header/DefaulHeader";
 import DefaultFooter from "@/components/footer/DefaultFooter";
 import FaqAccordion from "@/components/faqs/FaqAccordion";
 import Link from "next/link";
+import Image from 'next/image';
 export const metadata = {
   title: "Faq's || Jano - Creative Multipurpose React NextJS Template",
 };
@@ -49,7 +50,7 @@ const Faq = () => {
           <div className="border-bottom pb-100 lg-pb-70">
             <div className="bg-wrapper position-relative" data-aos="fade-up">
               <FaqAccordion />
-              <img
+              <Image
                 src="/images/shape/shape_133.svg"
                 alt="shape"
                 className="lazy-img shapes shape-one"

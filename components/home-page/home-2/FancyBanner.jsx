@@ -51,7 +51,7 @@ const FancyBanner = () => {
                     className="btn-fifteen fw-500 position-relative d-inline-flex align-items-center"
                   >
                     <span>{data.buttonLabel}</span>
-                    <img
+                    <Image
                       src="/images/icon/icon_69.svg"
                       alt={data.illustrationAlt}
                       className="ms-2"
@@ -66,7 +66,7 @@ const FancyBanner = () => {
                 data-aos={data.aos}
               >
                 <div className="illustration-holder md-mt-60">
-                  <img
+                  <Image
                     src={data.illustration}
                     alt={data.illustrationAlt}
                     className="lazy-img"

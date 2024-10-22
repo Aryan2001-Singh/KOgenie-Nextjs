@@ -1,5 +1,6 @@
 import Link from "next/link";
 import LoginForm from "@/components/common/LoginForm";
+import Image from 'next/image';
 
 export const metadata = {
   title: "Login || Jano - Creative Multipurpose React NextJS Template",
@@ -18,7 +19,12 @@ const LogIn = () => {
           <div className="d-flex align-items-center justify-content-between">
             <div className="logo order-lg-0">
               <Link href="/" className="d-block">
-                <img src="/images/logo/logo_012.svg" alt="" width={95} />
+                <Image 
+                  src="/images/logo/logo_012.svg" 
+                  alt="Logo" 
+                  width={95} 
+                  height={50} // Add appropriate height
+                />
               </Link>
             </div>
             <Link href="/" className="go-back-btn fw-500 tran3s">
@@ -49,17 +55,21 @@ const LogIn = () => {
         {/* End form-wrapper */}
 
         <p className="mt-auto pt-50">Copyright @{currentYear} jano inc.</p>
-        <img
+        <Image
           src="/images/assets/ils_11.png"
           alt="illustration"
           className="lazy-img illustration-one"
           data-aos="fade-left"
+          width={500} // Add appropriate width
+          height={400} // Add appropriate height
         />
-        <img
+        <Image
           src="/images/assets/ils_12.png"
           alt="illustration"
           className="lazy-img illustration-two"
           data-aos="fade-right"
+          width={500} // Add appropriate width
+          height={400} // Add appropriate height
         />
       </div>
       {/* /.fancy-feature-fiftyOne */}

@@ -45,7 +45,7 @@ const Counter = () => {
           >
             <div className="icon-bg">
               <div className="icon-img d-flex justify-content-center">
-                <img src={counter.logo} alt="shape" className="lazy-img" />
+                <Image src={counter.logo} alt="shape" className="lazy-img" />
               </div>
               <div className="icon-title text-uppercase fs-18 tx-dark mt-35 lg-mt-30">
                 {counter.title}

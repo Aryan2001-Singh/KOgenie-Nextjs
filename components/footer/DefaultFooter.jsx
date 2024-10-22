@@ -12,7 +12,7 @@ const DefaultFooter = () => {
             <div className="col-xl-2 footer-intro mb-40">
               <div className="logo">
                 <Link href="/">
-                  <img src="/images/logo/logo_012.svg" alt="brand" />
+                  <Image src="/images/logo/logo_012.svg" alt="brand" width={90} height={30} />
                 </Link>
               </div>
             </div>
@@ -37,7 +37,7 @@ const DefaultFooter = () => {
       {/* /.bg-wrapper */}
       <CopyrightFooter2 />
       {/* /.bottom-footer */}
-      <img
+      <Image
         src="/images/shape/shape_173.svg"
         alt="shape"
         className="lazy-img shapes shape-one"

@@ -22,7 +22,7 @@ const Feature = () => {
                   Everything starts with a{" "}
                   <span className="position-relative">
                     Marketing.{" "}
-                    <img src="/images/shape/shape_122.svg" alt="shape" />
+                    <Image src="/images/shape/shape_122.svg" alt="shape" />
                   </span>
                 </h2>
               </div>{" "}
@@ -49,12 +49,12 @@ const Feature = () => {
       </div>{" "}
       {/* /.container */}
       <div className="illustration-holder" data-aos="fade-right">
-        <img
+        <Image
           src="/images/media/img_48.png"
           alt="media"
           className="lazy-img main-img"
         />
-        <img
+        <Image
           src="/images/shape/shape_123.svg"
           alt="media"
           className="lazy-img shapes shape-one"

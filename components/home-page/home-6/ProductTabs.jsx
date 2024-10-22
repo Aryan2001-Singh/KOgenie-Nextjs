@@ -1,21 +1,29 @@
+import Image from "next/image";
+
 const tabData = [
   {
     id: "sp1",
     title: "Create task",
     subtitle: "for any team person",
     image: "/images/media/img_06.jpg",
+    width: 1200,  // Set appropriate width for the image
+    height: 800,  // Set appropriate height for the image
   },
   {
     id: "sp2",
     title: "Make timeframe",
     subtitle: "for do the task",
     image: "/images/media/img_05.jpg",
+    width: 1200,  // Set appropriate width for the image
+    height: 800,  // Set appropriate height for the image
   },
   {
     id: "sp3",
-    title: "Get task complated",
+    title: "Get task completed",
     subtitle: "by your member",
     image: "/images/media/img_06.1.jpg",
+    width: 1200,  // Set appropriate width for the image
+    height: 800,  // Set appropriate height for the image
   },
 ];
 
@@ -48,15 +56,19 @@ const ProductTabs = () => {
       >
         <div className="shapes shape-one rounded-circle" />
         <div className="shapes shape-two rounded-circle" />
-        <img
+        <Image
           src="/images/shape/shape_33.svg"
           alt="media"
           className="lazy-img shapes shape-three"
+          width={50}
+          height={50}
         />
-        <img
+        <Image
           src="/images/shape/shape_34.svg"
           alt="media"
           className="lazy-img shapes shape-four"
+          width={50}
+          height={50}
         />
         {tabData.map((tab) => (
           <div
@@ -64,10 +76,12 @@ const ProductTabs = () => {
             id={tab.id}
             key={tab.id}
           >
-            <img
+            <Image
               src={tab.image}
               alt="media"
               className="lazy-img main-screen w-100"
+              width={tab.width}   // Set width for each image
+              height={tab.height}  // Set height for each image
             />
           </div>
         ))}

@@ -28,25 +28,25 @@ const FancyBanner = () => {
           </div>
         </div>
       </div>
-      <img
+      <Image
         src="/images/shape/shape_20.svg"
         alt="shape"
         className="lazy-img shapes shape-one"
         style={{ top: "5%", left: "10%" }}
       />
-      <img
+      <Image
         src="/images/shape/shape_21.svg"
         alt="shape"
         className="lazy-img shapes shape-two"
         style={{ bottom: "-4%", left: "18%" }}
       />
-      <img
+      <Image
         src="/images/shape/shape_22.svg"
         alt="shape"
         className="lazy-img shapes shape-three"
         style={{ bottom: "-4%", right: "23%" }}
       />
-      <img
+      <Image
         src="/images/shape/shape_23.svg"
         alt="shape"
         className="lazy-img shapes shape-four"

@@ -9,11 +9,12 @@ import TagList from "@/components/home-page/home-6/TagList";
 import Features from "@/components/home-page/home-6/Features";
 import Testimonial from "@/components/home-page/home-6/Testimonial";
 import CircleBgShape from "@/components/home-page/home-6/CircleBgShape";
-import Partners from "@/components/home-page/home-6/Partners";
+
 import Pricing from "@/components/home-page/home-6/Pricing";
-import Subscribe from "@/components/home-page/home-6/Subscribe";
+
 import FooterMenu from "@/components/home-page/home-6/FooterMenu";
 import CopyrightFooter2 from "@/components/footer/CopyrightFooter2";
+import Image from "next/image";
 
 const SassProduct = () => {
   return (
@@ -45,10 +46,7 @@ const SassProduct = () => {
                   Our platform makes it easy to integrate your existing tools
                   for a seamless experience.
                 </p>
-                <Link
-                  href="/pages-menu/about-us-v1"
-                  className="btn-four fw-500"
-                >
+                <Link href="/pages-menu/about-us-v1" className="btn-four fw-500">
                   Learn More
                 </Link>
               </div>
@@ -106,16 +104,12 @@ const SassProduct = () => {
                 <p className="text-lg mt-40 mb-75 lg-mt-30 lg-mb-50">
                   Our tools are trusted by over 150,000 clients worldwide.
                 </p>
-                <Link
-                  
-                  href="/sign-up"
-                  className="btn-four fw-500"
-                >
+                <Link href="/sign-up" className="btn-four fw-500">
                   Try Free Now
                 </Link>
               </div>
             </div>
-            <div className="col-md-6 order-md-first" data-data-aos="fade-right">
+            <div className="col-md-6 order-md-first" data-aos="fade-right">
               <div className="tags-wrapper position-relative">
                 <TagList />
               </div>
@@ -134,9 +128,6 @@ const SassProduct = () => {
                   Let’s Discover our all features
                 </h2>
               </div>
-              {/* <Link href="/pages-menu/service-v1" className="btn-five tran3s fw-500 fs-17 text-decoration-underline">
-                Click here for more info
-              </Link> */}
             </div>
             <Features />
           </div>
@@ -150,10 +141,12 @@ const SassProduct = () => {
             <div className="col-xxl-6 col-lg-7 col-md-8 col-sm-10 m-auto">
               <div className="title-style-three text-center mb-70 lg-mb-40">
                 <div className="icon d-flex align-items-center justify-content-center rounded-circle">
-                  <img
+                  <Image
                     src="/images/icon/icon_19.svg"
                     alt="icon"
                     className="lazy-img"
+                    width={50} // Add width
+                    height={50} // Add height
                   />
                 </div>
                 <h2 className="main-title fw-500">
@@ -170,29 +163,6 @@ const SassProduct = () => {
         </div>
         <CircleBgShape />
       </div>
-
-      {/* Partner Section */}
-      {/* <div className="partner-section-one position-relative mt-225 lg-mt-100">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-8 m-auto">
-              <div className="title-style-three text-center mb-100 lg-mb-30" data-aos="fade-up">
-                <div className="sc-title text-uppercase">Our partners</div>
-                <h2 className="main-title fw-500">
-                  Our trusted partners support us always
-                </h2>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-xxl-11 m-auto">
-              <div className="row align-items-center">
-                <Partners />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
 
       {/* Pricing Section */}
       <div className="pricing-section-one position-relative mt-200 lg-mt-120">
@@ -217,7 +187,7 @@ const SassProduct = () => {
       {/* Fancy Short Banner Two */}
       <div
         className="fancy-short-banner-two mt-150 lg-mt-100"
-        data-data-aos="fade-up"
+        data-aos="fade-up"
       >
         <div className="container">
           <div className="bg-wrapper ms-xxl-4 me-xxl-4 position-relative">

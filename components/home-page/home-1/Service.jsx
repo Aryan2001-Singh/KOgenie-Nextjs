@@ -35,7 +35,7 @@ const Service = () => {
         >
           <div className="card-style-sixteen tran3s text-center position-relative mt-30">
             <div className="icon">
-              <img src={service.icon} alt="" className="lazy-img m-auto" />
+              <Image src={service.icon} alt="" className="lazy-img m-auto" />
             </div>
             <p className="fs-20 m0 pt-20">I want</p>
             <h4 className="tx-dark">{service.title}</h4>

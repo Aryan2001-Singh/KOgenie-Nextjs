@@ -16,7 +16,7 @@ const WhyChoose = () => {
 
   return (
     <div className="screen-container position-relative ms-auto">
-      <img
+      <Image
         src="/images/shape/shape_45.svg"
         alt="shape"
         className="lazy-img shapes bg-round-shape"
@@ -34,7 +34,7 @@ const WhyChoose = () => {
                 data-aos-delay="200"
               >
                 <div className="icon d-flex align-items-end">
-                  <img src={card.iconSrc} alt="shape" className="lazy-img" />
+                  <Image src={card.iconSrc} alt="shape" className="lazy-img" />
                 </div>
                 <h4>{card.title}</h4>
               </div>
@@ -47,7 +47,7 @@ const WhyChoose = () => {
               data-aos="fade-left"
             >
               <div className="icon d-flex align-items-end">
-                <img src={cards[2].iconSrc} alt="shape" className="lazy-img" />
+                <Image src={cards[2].iconSrc} alt="shape" className="lazy-img" />
               </div>
               <h4>{cards[2].title}</h4>
             </div>

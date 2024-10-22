@@ -31,7 +31,7 @@ const Header = () => {
           <div className="d-flex align-items-center justify-content-between">
             <div className="logo order-lg-0">
               <Link href="/" className="d-block">
-                <img src="/images/logo/logo_012.svg" alt="" width={95} />
+                <Image src="/images/logo/logo_012.svg" alt="" width={95} height={50} />
               </Link>
             </div>
             <div className="right-widget">

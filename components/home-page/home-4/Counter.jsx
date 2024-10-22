@@ -62,7 +62,7 @@ const Counter = () => {
           {counter.unit}
         </div>
         <p className="tx-dark fs-18 m0">{counter.label}</p>
-        <img
+        <Image
           src={counter.image}
           alt="shape"
           className="lazy-img position-absolute bg-img"

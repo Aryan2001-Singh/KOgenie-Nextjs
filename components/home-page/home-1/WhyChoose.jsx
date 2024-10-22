@@ -36,7 +36,7 @@ const WhyChoose = () => {
               aria-expanded={item.id === 2 ? "true" : "false"}
               aria-controls={`collapse${item.id}`}
             >
-              <img src={item.icon} alt="" className="me-3" /> {item.title}
+              <Image src={item.icon} alt="" className="me-3" /> {item.title}
             </button>
           </div>
           <div

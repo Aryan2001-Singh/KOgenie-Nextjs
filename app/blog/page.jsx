@@ -1,4 +1,4 @@
-import DefaulHeader from "@/components/header/DefaulHeader";
+
 import DefaultFooter from "@/components/footer/DefaultFooter";
 import Pagination from "@/components/blog/Pagination";
 import SearchBox from "@/components/blog/SearchBox";
@@ -7,6 +7,7 @@ import RecentPost from "@/components/blog/RecentPost";
 import BannerPost from "@/components/blog/BannerPost";
 import Blog2 from "@/components/blog/Blog";
 import Header from "@/components/home-page/home-6/Header";
+import Image from 'next/image';
 
 const GridWithSidebar = () => {
   return (
@@ -37,7 +38,7 @@ const GridWithSidebar = () => {
           </div>
         </div>
         {/* /.container */}
-        <img
+        <Image
           src="/images/shape/shape_172.svg"
           alt="shape"
           className="lazy-img shapes shape-two"

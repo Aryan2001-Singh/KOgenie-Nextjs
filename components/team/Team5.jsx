@@ -43,7 +43,7 @@ const Team5 = () => {
             data-aos-delay={member.dataAosDelay}
           >
             <div className="img-meta">
-              <img
+              <Image
                 src={member.image}
                 alt={member.name}
                 className="lazy-img team-img w-100"

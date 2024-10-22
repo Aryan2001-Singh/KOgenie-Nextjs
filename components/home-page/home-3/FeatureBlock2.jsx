@@ -23,7 +23,7 @@ const FeatureBlock2 = () => {
           {/* End .col-xl-5 */}
 
           <div className="col-xl-6 col-md-6 ms-auto" data-aos="fade-left">
-            <img
+            <Image
               src="/images/media/img_68.png"
               alt="media"
               className="lazy-img sm-mt-40"

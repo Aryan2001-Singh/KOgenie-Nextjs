@@ -23,7 +23,7 @@ const VideoBlock = () => {
               className="fancybox video-icon tran3s rounded-circle d-flex align-items-center justify-content-center"
               onClick={() => setOpen(true)}
             >
-              <img
+              <Image
                 src="/images/icon/icon_140.svg"
                 alt="icon"
                 className="lazy-img"

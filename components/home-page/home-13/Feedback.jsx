@@ -38,7 +38,7 @@ const Feedback = () => {
       data-aos="fade-up"
     >
       <div className="container">
-        <img
+        <Image
           src="/images/icon/icon_92.svg"
           alt="shape"
           className="icon lazy-img m-auto"
@@ -66,7 +66,7 @@ const Feedback = () => {
       </div>{" "}
       {/* /.container */}
       {images.map((image, index) => (
-        <img
+        <Image
           key={index}
           src={image.src}
           alt={image.alt}

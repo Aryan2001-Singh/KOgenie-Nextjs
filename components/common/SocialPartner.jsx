@@ -28,7 +28,7 @@ const SocialPartner = () => {
         >
           <div className={`img-box bx-${logo.id}`}>
             <a href="#">
-              <img src={logo.src} alt="logo" className={logo.className} />
+              <Image src={logo.src} alt="logo" className={logo.className} />
             </a>
           </div>{" "}
           {/* /.img-box */}

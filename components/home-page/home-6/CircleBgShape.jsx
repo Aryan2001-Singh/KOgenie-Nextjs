@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const CircleBgShape = () => {
   const images = [
     {
@@ -40,18 +42,21 @@ const CircleBgShape = () => {
 
   return (
     <div className="circle-bg shapes">
-      <img
+      <Image
         src="/images/shape/shape_37.svg"
         alt="media"
         className="lazy-img main-img m-auto"
+        width={500} // Add appropriate width for this image
+        height={500} // Add appropriate height for this image
       />
       {images.map((img, index) => (
-        <img
+        <Image
           key={index}
           src={img.src}
           alt="media"
           className={`lazy-img shapes rounded-circle ${img.className}`}
-          style={{ width: `${img.width}px`, height: `${img.height}px` }}
+          width={img.width} // Provide width from the object
+          height={img.height} // Provide height from the object
         />
       ))}
     </div>

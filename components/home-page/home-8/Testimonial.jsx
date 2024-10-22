@@ -54,7 +54,7 @@ const Testimonial = () => {
           <div className="feedback-block-seven">
             <div className="top-header d-flex align-items-center justify-content-between">
               <div>
-                <img src={testimonial.logo} alt="" />
+                <Image src={testimonial.logo} alt="" />
                 <ul className="style-none d-flex rating pt-15">
                   {[...Array(testimonial.rating)].map((_, index) => (
                     <li key={index}>
@@ -63,7 +63,7 @@ const Testimonial = () => {
                   ))}
                 </ul>
               </div>
-              <img src="/images/icon/icon_85.svg" alt="" width={50} />
+              <Image src="/images/icon/icon_85.svg" alt="" width={50} />
             </div>
             <p className="text-white">{testimonial.feedback}</p>
             <div className="cost fw-500 fs-18 text-white">

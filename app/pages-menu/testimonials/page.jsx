@@ -3,24 +3,19 @@ import DefaultFooter from "@/components/footer/DefaultFooter";
 import Testimonial from "@/components/home-page/home-3/Testimonial";
 import Testimonial2 from "@/components/home-page/home-5/Testimonial";
 import Testimonial3 from "@/components/home-page/home-6/Testimonial";
+import Image from "next/image";
+
 export const metadata = {
   title: "Testimonials || Jano - Creative Multipurpose React NextJS Template",
 };
+
 const Testimonials = () => {
   return (
     <>
-      {/* <!-- 
-      =============================================
-      Theme Default Menu
-      ============================================== 	
-      --> */}
+      {/* Header */}
       <DefaulHeader />
 
-      {/* 
-        =============================================
-        Feature Section Fifty One
-        ============================================== 
-        */}
+      {/* Feature Section Fifty One */}
       <div className="fancy-feature-fiftyOne position-relative mt-200">
         <div className="container">
           <div className="row">
@@ -37,18 +32,16 @@ const Testimonials = () => {
           </div>
         </div>
 
-        <img
+        <Image
           src="/images/shape/shape_172.svg"
           alt="shape"
           className="lazy-img shapes shape-two"
+          width={500} // Add width
+          height={500} // Add height
         />
       </div>
 
-      {/*
-			=====================================================
-				Feedback Section Eleven
-			=====================================================
-			*/}
+      {/* Feedback Section Eleven */}
       <div
         className="feedback-section-eleven position-relative mt-50 pt-100 pb-70 lg-pt-70 lg-pb-50"
         data-aos="fade-up"
@@ -58,25 +51,16 @@ const Testimonials = () => {
             <h2 className="main-title fw-500 tx-dark m0">Client Feedback</h2>
           </div>
         </div>
-        {/* End .container */}
         <div className="inner-content">
           <div className="slider-wrapper">
             <div className="feedback_slider_seven">
               <Testimonial />
             </div>
-            {/* /.feedback_slider_seven */}
           </div>
-          {/* /.slider-wrapper */}
         </div>
-        {/* /.inner-content */}
       </div>
-      {/* /.feedback-section-eleven */}
 
-      {/*
-			=====================================================
-			Feedback Section Fourteen
-			=====================================================
-			*/}
+      {/* Feedback Section Fourteen */}
       <div className="feedback-section-fourteen position-relative zn2">
         <div className="container">
           <div className="pt-180 pb-180 lg-pt-100 lg-pb-100 position-relative zn2">
@@ -87,63 +71,61 @@ const Testimonials = () => {
                     Check our client lovely words.
                   </h2>
                 </div>
-                {/* /.title-style-five */}
                 <div className="mt-120 lg-mt-40 ps-xl-5 ms-xl-5">
                   <div className="feedback_slider_eleven">
                     <Testimonial2 />
                   </div>
-                  {/* /.feedback_slider_eleven */}
                 </div>
               </div>
-              {/* End .col-md-6 */}
 
               <div className="col-xl-6 col-lg-5 col-md-6 ms-auto">
                 <div
                   className="img-holder position-relative mt-25"
                   data-aos="fade-left"
                 >
-                  <img
+                  <Image
                     src="/images/media/img_84.jpg"
                     alt="shape"
                     className="lazy-img ms-auto"
+                    width={500} // Add width
+                    height={500} // Add height
                   />
 
                   <div className="rating-box bg-black text-white d-flex flex-column justify-content-center align-items-center">
                     <strong className="fw-500">4.8</strong>
                     <span>avg rating</span>
                   </div>
-                  {/* /.rating-box */}
 
-                  <img
+                  <Image
                     src="/images/shape/shape_163.svg"
                     alt="shape"
                     className="lazy-img shapes shape-one"
+                    width={100} // Add width
+                    height={100} // Add height
                   />
-                  <img
+                  <Image
                     src="/images/shape/shape_168.svg"
                     alt="shape"
                     className="lazy-img shapes shape-two"
+                    width={100} // Add width
+                    height={100} // Add height
                   />
                 </div>
               </div>
             </div>
           </div>
-          {/* /.line-bg-wrapper */}
         </div>
-        {/* End .container */}
 
-        <img
+        <Image
           src="/images/shape/shape_169.svg"
           alt="shape"
           className="lazy-img shapes shape-three"
+          width={500} // Add width
+          height={500} // Add height
         />
       </div>
 
-      {/*
-			=====================================================
-				Feedback Section Two
-			=====================================================
-			*/}
+      {/* Feedback Section Two */}
       <div
         className="feedback-section-two position-relative pt-150 pb-150 lg-pt-100 lg-pb-100 sm-pt-10 sm-pb-10"
         data-aos="fade-up"
@@ -156,10 +138,12 @@ const Testimonials = () => {
                   className="icon d-flex align-items-center justify-content-center rounded-circle"
                   style={{ background: "#FFC961" }}
                 >
-                  <img
+                  <Image
                     src="/images/icon/icon_19.svg"
                     alt="icon"
                     className="lazy-img"
+                    width={50} // Add width
+                    height={50} // Add height
                   />
                 </div>
                 <h2 className="main-title fw-500">
@@ -174,70 +158,70 @@ const Testimonials = () => {
                   say about us.
                 </h2>
               </div>
-              {/* /.title-style-three */}
             </div>
           </div>
-          {/* End .row */}
 
           <div className="row">
             <div className="col-xl-7 col-lg-9 m-auto">
               <Testimonial3 />
             </div>
           </div>
-          {/* End .row */}
         </div>
-        {/* End .container */}
 
         <div className="circle-bg shapes">
-          <img
+          <Image
             src="/images/shape/shape_37.svg"
             alt="shape"
             className="lazy-img main-img m-auto"
+            width={500} // Add width
+            height={500} // Add height
           />
-          <img
+          <Image
             src="/images/media/img_07.jpg"
             alt="shape"
             className="lazy-img shapes rounded-circle cp-one"
-            style={{ width: "80px", height: "80px" }}
+            width={80} // Add width
+            height={80} // Add height
           />
-          <img
+          <Image
             src="/images/media/img_08.jpg"
             alt="shape"
             className="lazy-img shapes rounded-circle cp-two"
-            style={{ width: "45px", height: "45px" }}
+            width={45} // Add width
+            height={45} // Add height
           />
-          <img
+          <Image
             src="/images/media/img_09.jpg"
             alt="shape"
             className="lazy-img shapes rounded-circle cp-three"
-            style={{ width: "85px", height: "85px" }}
+            width={85} // Add width
+            height={85} // Add height
           />
-          <img
+          <Image
             src="/images/media/img_10.jpg"
             alt="shape"
             className="lazy-img shapes rounded-circle cp-four"
-            style={{ width: "45px", height: "45px" }}
+            width={45} // Add width
+            height={45} // Add height
           />
-          <img
+          <Image
             src="/images/media/img_11.jpg"
             alt="shape"
             className="lazy-img shapes rounded-circle cp-five"
-            style={{ width: "110px", height: "110px" }}
+            width={110} // Add width
+            height={110} // Add height
           />
-          <img
+          <Image
             src="/images/media/img_12.jpg"
             alt="shape"
             className="lazy-img shapes rounded-circle cp-six"
-            style={{ width: "55px", height: "55px" }}
+            width={55} // Add width
+            height={55} // Add height
           />
         </div>
       </div>
 
-      {/* 
-        =============================================
-        Contact Section One
-        ============================================== 
-        */}
+      {/* Contact Section One */}
       <DefaultFooter />
     </>
   );

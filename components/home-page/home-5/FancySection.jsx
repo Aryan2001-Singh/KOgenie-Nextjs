@@ -22,18 +22,18 @@ const FancySection = () => {
       <div className="clip-text" data-aos="fade-right">
         W
       </div>
-      <img
+      <Image
         src="/images/shape/shape_166.svg"
         alt="shape"
         className="lazy-img shapes shape-one"
       />
       <a href="#" className="more-btn tran3s" data-aos="fade-left">
-        <img
+        <Image
           src="/images/shape/shape_167.svg"
           alt="shape"
           className="lazy-img"
         />
-        <img
+        <Image
           src="/images/icon/icon_139.svg"
           alt="shape"
           className="lazy-img arrow"

@@ -31,7 +31,7 @@ const Team = () => {
         >
           <div className="team-block-one mt-40">
             <div className="img-meta position-relative">
-              <img
+              <Image
                 src={member.imgSrc}
                 alt={member.name}
                 className="lazy-img w-100"

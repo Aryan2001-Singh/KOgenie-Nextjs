@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import ModalVideo from "react-modal-video";
+import Image from 'next/image';
 
 const Hero = () => {
   const [isOpen, setOpen] = useState(false);
@@ -18,15 +19,19 @@ const Hero = () => {
       />
 
       <div className="hero-banner-two position-relative pt-250 lg-pt-200 md-pt-150">
-        <img
+        <Image
           src="/images/shape/shape_26.svg"
           alt="shape"
           className="lazy-img shapes shape-left"
+          width={50}  // Example value
+          height={50} 
         />
-        <img
+        <Image
           src="/images/shape/shape_27.svg"
           alt="shape"
           className="lazy-img shapes shape-right"
+          width={50}  // Example value
+          height={50} 
         />
 
         <div className="container">
@@ -36,7 +41,7 @@ const Hero = () => {
               data-aos="fade-up"
             >
               <h1 className="hero-heading fw-normal font-recoleta position-relative">
-                {/* <img
+                {/* <Image
                   src="/images/shape/shape_25.svg"
                   alt="shape"
                   className="lazy-img shapes line-shape"
@@ -80,32 +85,42 @@ const Hero = () => {
             data-aos="fade-up"
           >
             <div className="bg-wrapper">
-              <img
-                src="/images/media/img_05.jpg"
+              <Image
+                src=""
                 alt="media"
                 className="lazy-img main-screen w-100"
+                width={50}
+                height={50}
               />
             </div>
             {/* /.bg-wrapper */}
-            <img
+            <Image
               src="/images/shape/shape_28.svg"
               alt="media"
               className="lazy-img shapes shape-one"
+              width={50}
+                height={50}
             />
-            <img
+            <Image
               src="/images/shape/shape_29.svg"
               alt="media"
               className="lazy-img shapes shape-two"
+              width={50}
+                height={50}
             />
-            <img
+            <Image
               src="/images/shape/shape_30.svg"
               alt="media"
               className="lazy-img shapes shape-three"
+              width={50}
+                height={50}
             />
-            <img
+            <Image
               src="/images/shape/shape_31.svg"
               alt="media"
               className="lazy-img shapes shape-four"
+              width={50}
+                height={50}
             />
           </div>
           {/* /.illustration-holder */}
