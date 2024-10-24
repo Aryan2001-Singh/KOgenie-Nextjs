@@ -4,6 +4,7 @@ import Faq from "@/components/services/Faq";
 import Testimonial from "@/components/home-page/home-3/Testimonial";
 import Block from "@/components/services/Block";
 import Team3 from "@/components/team/Team3";
+import Team1 from "@/components/team/Team1";
 import Link from "next/link";
 import VideoBlock from "@/components/about/VideoBlock";
 import Counter from "@/components/about/Counter";
@@ -142,7 +143,7 @@ const AboutUsV1 = () => {
               </div>
             </div>
             <div className="row">
-              <Team3 />
+              <Team1 />
             </div>
             <p
               className="cr-text text-center text-lg tx-dark mt-75 lg-mt-50"

@@ -362,7 +362,7 @@ const CreateAdPage = () => {
               }}
             >
               <Image
-                src="/public/images/gallery/img_01.jpg"
+                src="/logo_012.svg"
                  width={40}
                  height={60}
                  style={{borderRadius:'50%'}}

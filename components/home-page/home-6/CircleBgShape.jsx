@@ -46,8 +46,8 @@ const CircleBgShape = () => {
         src="/images/shape/shape_37.svg"
         alt="media"
         className="lazy-img main-img m-auto"
-        width={500} // Add appropriate width for this image
-        height={500} // Add appropriate height for this image
+        width={1500} // Add appropriate width for this image
+        height={1500} // Add appropriate height for this image
       />
       {images.map((img, index) => (
         <Image

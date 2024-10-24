@@ -86,11 +86,11 @@ const Hero = () => {
           >
             <div className="bg-wrapper">
               <Image
-                src=""
+                src="/images/media/img_05.jpg"
                 alt="media"
                 className="lazy-img main-screen w-100"
-                width={50}
-                height={50}
+                width={1214}
+                height={729}
               />
             </div>
             {/* /.bg-wrapper */}
